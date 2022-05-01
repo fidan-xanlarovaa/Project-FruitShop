@@ -3,14 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShop.UI", "FruitShop\FruitShop.UI.csproj", "{4CB92AF6-91B9-4A38-A3CB-40E9F3B3553A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitShop.WebApp.Core.MVC", "FruitShop\FruitShop.WebApp.Core.MVC.csproj", "{4CB92AF6-91B9-4A38-A3CB-40E9F3B3553A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShopEntities", "FruitShopEntities\FruitShopEntities.csproj", "{A620AB3F-F216-4425-A7A5-A87FEEC41753}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitShop.Entities", "FruitShopEntities\FruitShop.Entities.csproj", "{A620AB3F-F216-4425-A7A5-A87FEEC41753}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8FE62122-B6AB-44E6-B094-EA6CCE8199E1}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShop.Data", "FruitShop.Data\FruitShop.Data.csproj", "{340174B5-D596-489D-94EB-69E01F31499B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShop.Services", "FruitShop.Services\FruitShop.Services.csproj", "{1C987B2A-5062-4CBE-A5CB-E7599909D3C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShop.Shared", "FruitShop.Shared\FruitShop.Shared.csproj", "{7C680579-D808-4252-AC81-62F2FB290629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +32,18 @@ Global
 		{A620AB3F-F216-4425-A7A5-A87FEEC41753}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A620AB3F-F216-4425-A7A5-A87FEEC41753}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A620AB3F-F216-4425-A7A5-A87FEEC41753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340174B5-D596-489D-94EB-69E01F31499B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340174B5-D596-489D-94EB-69E01F31499B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340174B5-D596-489D-94EB-69E01F31499B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340174B5-D596-489D-94EB-69E01F31499B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C987B2A-5062-4CBE-A5CB-E7599909D3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C987B2A-5062-4CBE-A5CB-E7599909D3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C987B2A-5062-4CBE-A5CB-E7599909D3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C987B2A-5062-4CBE-A5CB-E7599909D3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C680579-D808-4252-AC81-62F2FB290629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C680579-D808-4252-AC81-62F2FB290629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C680579-D808-4252-AC81-62F2FB290629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C680579-D808-4252-AC81-62F2FB290629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

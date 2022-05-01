@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FruitShopEntities
+namespace FruitShop.Data
 {
     public class Class1
     {
