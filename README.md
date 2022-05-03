@@ -8,5 +8,5 @@
 - Identity
 
 ## Database of project
-- ![Database of project](https://github.com/fidan-xanlarovaa/Project-FruitShop/blob/master/Screenshot_3.png)
+ ![Database of project](https://github.com/fidan-xanlarovaa/Project-FruitShop/blob/master/Screenshot_3.png)
 
